@@ -1,0 +1,30 @@
+.elementor-5322
+  .elementor-element.elementor-element-644f802:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-5322
+  .elementor-element.elementor-element-644f802
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #ffffff;
+  background-image: var(--e-bg-lazyload-loaded);
+  --e-bg-lazyload: url("https://redestecnologia.com.br/wp-content/uploads/2023/09/continuidade.webp");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 35% auto;
+}
+
+/* efeito */
+@media (max-width: 767px) {
+  .elementor-5322
+    .elementor-element.elementor-element-644f802:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-5322
+    .elementor-element.elementor-element-644f802
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: bottom right;
+    background-size: contain;
+  }
+}

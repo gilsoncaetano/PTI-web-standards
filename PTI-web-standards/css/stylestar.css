@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* padding: 0 2%; */
+}
+
+@media screen {
+  .center .htmla,
+  body {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+header {
+  height: 200px;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 50%;
+}
+
+.logo img {
+  width: 62%;
+}
+
+.menu {
+  padding-top: 60px;
+  width: 50%;
+  text-align: right;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+section.sobre {
+  /* height: calc(100%); */
+  position: relative;
+}
+
+.extras {
+  position: absolute;
+  right: 0px;
+  width: 40%;
+  height: 500px;
+}
+.container-infra {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  border: solid 2px red;
+  /* right: 0px; */
+  width: 55%;
+  height: 500px;
+}
+
+.extras-img {
+  position: absolute;
+}
+.sobre-img {
+  position: absolute;
+  right: -220px;
+  width: 60%;
+  height: 50px;
+}
+
+.extras img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.texto-sobre {
+  margin-top: 100px;
+  /* min-width: 1200px; */
+}
+
+.texto-sobre h1 {
+  display: inline-block;
+  font-size: 48px;
+  max-width: 620px;
+}
+
+.texto-sobre p {
+  display: block;
+  margin: 0px 0;
+  font-size: 14px;
+  font-weight: bolder;
+  max-width: 600px;
+  /* border: solid blue; */
+}
+
+.texto-sobre button {
+  border: 0;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  width: 170px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 70px;
+}
+
+.icons {
+  position: absolute;
+  margin-top: -70px;
+  width: 480px;
+  right: 600px;
+  margin-right: -40px;
+  /* border: solid blue; */
+}
+
+.icons img {
+  width: 50%;
+}
+
+/* Efeito da barra */
+@media (max-width: 767px) {
+  .elementor-5322
+    .elementor-element.elementor-element-644f802:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-5322
+    .elementor-element.elementor-element-644f802
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: bottom right;
+    background-size: contain;
+  }
+}
+
+.elementor-widget-icon-box.elementor-position-left .elementor-icon-box-icon {
+  margin-right: var(--icon-box-icon-margin, 15px);
+  margin-left: 0;
+  margin-bottom: unset;
+}
